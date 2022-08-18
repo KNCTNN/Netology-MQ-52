@@ -1,0 +1,133 @@
+.header__container {
+  max-width: 320px;
+}
+.menu {
+  justify-content: center;
+}
+.menu__logo {
+  margin-top: 220px;
+}
+.title__header {
+  width: 100%;
+}
+.title__text {
+  font-size: 26px;
+}
+.trends__container {
+  max-width: 767px;
+  padding: 0;
+}
+.title__pillow,
+.production__title_text,
+.trend__title_heading,
+.production__title_text,
+.trend__title_heading,
+.title__item_trend,
+.title__item {
+  font-size: 16px;
+}
+.trend__garden,
+.trend__cheese,
+.trend__travel,
+.trend__limon {
+  width: 100%;
+  display: block;
+}
+.container {
+  max-width: 320px;
+  display: block;
+  margin: auto;
+  padding: 45px 15px 0 15px;
+}
+.main__content {
+  width: 100%;
+  margin-right: 0;
+}
+.news__category {
+  padding: 0;
+}
+.main__news {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.news__pic_main {
+  width: 100%;
+}
+.sidebar__aside {
+  width: 300px;
+}
+.subscribe {
+  margin: 25px 15px 0 0;
+}
+.button__subscribe {
+  margin-bottom: 40px;
+}
+.categories__title {
+  margin: 40px 15px 0 0;
+}
+.productions__container {
+  max-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.productions {
+  display: block;
+}
+.productions__card {
+  width: 100%;
+}
+
+.production__pic {
+  max-width: 85%;
+}
+.shop__card {
+  padding: 50px 20px 25px 20px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.production__card_pillow,
+.production__card_bunny,
+.production__card_frame {
+  text-align: center;
+}
+.footer__social {
+  margin-top: 10px;
+}
+.tag__item {
+  width: 25%;
+}
+.tag__item_link {
+  padding-left: 7px;
+  text-align: center;
+}
+.tags {
+  width: 100%;
+}
+
+@media (orientation: landscape) and (max-width: 640px), (min-width: 641px) {
+  .trend__garden,
+  .trend__cheese,
+  .trend__travel,
+  .trend__limon {
+    width: calc(50% - 2.5px);
+    margin-right: 5px;
+  }
+  .trend__limon,
+  .trend__cheese {
+    margin-right: 0;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 641px) {
+  .trend__garden,
+  .trend__cheese,
+  .trend__travel,
+  .trend__limon {
+    width: calc(50% - 2.5px);
+    margin-right: 5px;
+  }
+  .trend__limon,
+  .trend__cheese {
+    margin-right: 0;
+  }
+}
