@@ -1,0 +1,112 @@
+.burger__menu {
+  display: block;
+}
+.header__container {
+  margin: auto;
+  max-width: 768px;
+  padding: 0 15px 0 15px;
+}
+.title__header {
+  width: 85%;
+}
+.title__text {
+  font-size: 40px;
+}
+.title__pillow,
+.production__title_text,
+.trend__title_heading {
+  font-size: 18px;
+}
+.production__title_text,
+.trend__title_heading,
+.title__item_trend,
+.title__item {
+  font-size: 17px;
+}
+.menu__list {
+  display: none;
+}
+.trends__container {
+  max-width: 768px;
+  margin: auto;
+  margin-top: 38px;
+  padding: 0 15px 0 15px;
+}
+.trend__title_heading::after {
+  margin-bottom: 18px;
+}
+.trends {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trend__garden,
+.trend__cheese,
+.trend__travel,
+.trend__limon {
+  width: 49.5%;
+  margin-right: 0.5%;
+  margin-bottom: 3px;
+}
+.trend__cheese {
+  margin-right: 0;
+}
+.news__category {
+  padding-left: 0;
+  margin-left: 0;
+}
+.text_item {
+  padding-bottom: 25px;
+}
+.container {
+  max-width: 768px;
+  padding: 60px 35px 0 35px;
+}
+.main__news {
+  flex-wrap: wrap;
+  border-bottom: 3px solid #eeeeee;
+  margin-bottom: 40px;
+}
+.sidebar__aside {
+  width: 275px;
+}
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0;
+  margin-right: 35px;
+}
+.news__pic {
+  margin-bottom: 15px;
+}
+.productions__container {
+  max-width: 768px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.shop__card {
+  margin-bottom: 25px;
+}
+.productions {
+  flex-wrap: wrap;
+}
+.productions__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 46%;
+  margin-right: 0;
+}
+.productions__card {
+  margin-right: 4%;
+}
+.productions__card:nth-child(n + 2) {
+  margin-right: 0;
+}
+.popup__header_text {
+  font-size: 18px;
+}
+.popup__container {
+  top: calc(50% - 170px);
+  left: calc(50% - 190px);
+}
