@@ -488,6 +488,7 @@ h3 {
 }
 .productions {
   display: flex;
+  align-items: flex-start;
 }
 .production__title_text::after {
   content: "";
@@ -500,16 +501,18 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 30%;
-  margin-right: 3%;
+  width: 33%;
+  margin-right: 65px;
+}
+.productions__card:last-child {
+  margin-right: 0;
 }
 .shop__card {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px 20px 50px 20px;
+  box-sizing: border-box;
+  padding: 50px 25px 20px 25px;
   border: 3px solid #e1d9bd;
   margin-top: -50px;
-  min-height: 40%;
+  min-height: 280px;
 }
 .title__pillow,
 .title__bunny,
@@ -517,27 +520,23 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   line-height: 24px;
+  margin-top: 20px;
 }
 .discription__card {
   font-size: 15px;
   font-weight: 400;
   font-style: normal;
   line-height: 22px;
-  margin-top: 10px;
 }
-.price__pillow_line,
-.price__pillow_final,
-.price__frame_line,
-.price__frame_final,
-.price__bunny_final,
+.price__linetrought,
+.price__linenone,
 .price__button_shop {
   font-size: 14px;
   font-weight: 700;
   font-style: normal;
   text-decoration: line-through;
 }
-.price__pillow_line,
-.price__frame_line,
+.price__linetrought,
 .price__button_shop {
   margin-top: 15px;
 }
@@ -545,18 +544,18 @@ h3 {
   background-color: #000000;
   cursor: pointer;
 }
-.price__pillow_final,
-.price__frame_final,
-.price__bunny_final {
+.price__linenone {
   font-size: 20px;
   text-decoration: none;
 }
-.price,
-.price__button {
-  width: 50%;
-}
 .price {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price__list {
+  list-style-type: none;
+  padding: 0;
 }
 .price__button_shop {
   text-decoration: none;
