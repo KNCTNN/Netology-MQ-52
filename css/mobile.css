@@ -32,6 +32,7 @@
 .trend__limon {
   width: 100%;
   display: block;
+  margin-right: 0;
 }
 .container {
   max-width: 320px;

@@ -228,7 +228,17 @@ h3 {
   font-weight: 700;
   padding: 0;
 }
-.category__item {
+.trend__category_list {
+  display: flex;
+}
+.category__item_trend {
+  padding-left: 15px;
+}
+.category__item_trend:nth-child(odd) {
+  padding-left: 0px;
+}
+.category__item,
+.category__item_trend {
   list-style-type: none;
 }
 .date {
@@ -378,10 +388,8 @@ h3 {
 .tags {
   width: 275px;
 }
-.tag__title_text,
 .tag__title_link,
 .subscribe__title,
-.subscribe__title_link,
 .sidebar__header_item,
 .categories__title_link,
 .categories__list_link {
@@ -626,6 +634,9 @@ h3 {
   font-weight: 700;
   font-family: inherit;
   color: #999999;
+}
+.copyright__link {
+  text-decoration: none;
 }
 .popup {
   font-size: 13px;
