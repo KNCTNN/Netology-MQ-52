@@ -183,6 +183,9 @@ h3 {
 .title__item_trend {
   color: #ffffff;
 }
+.title__item:hover, .title__item_trend:hover {
+color: #b59f5b;
+}
 .title__header {
   position: relative;
   margin: auto;
@@ -787,3 +790,20 @@ select {
   outline: 5px solid #b59f5b;
   outline-offset: -10px;
 }
+/* @media (orientation: landscape) and (max-width: 640px) {
+  .trend__garden,
+  .trend__cheese,
+  .trend__travel,
+  .trend__limon {
+    width: calc(50% - 2.5px);
+    margin-right: 5px;
+  }
+}
+@media (orientation: portrait) and (max-width: 640px) {
+  .trend__garden,
+  .trend__cheese,
+  .trend__travel,
+  .trend__limon {
+    width: 100%;
+  }
+} */

@@ -26,12 +26,12 @@
 .menu__list {
   display: none;
 }
-.trends__container {
+/* .trends__container {
   max-width: 768px;
   margin: auto;
   margin-top: 38px;
   padding: 0 15px 0 15px;
-}
+} */
 .trend__title_heading::after {
   margin-bottom: 18px;
 }
@@ -109,4 +109,14 @@
 .popup__container {
   top: calc(50% - 170px);
   left: calc(50% - 190px);
+}
+@media (orientation: landscape) and (min-width: 767px) {
+.trend__garden,
+.trend__cheese,
+.trend__travel,
+.trend__limon {
+  width: 25%;
+  margin-right: 0;
+  margin-bottom: 3px;
+  }
 }
